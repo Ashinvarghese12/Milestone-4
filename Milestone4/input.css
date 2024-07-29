@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.cards{
+    @apply bg-blue-50 ms-1 px-10 pt-6  rounded-lg hover:bg-[url('image/bg-hover.jpg')] bg-no-repeat cursor-pointer;
+
+}
+
+.integrationcard{
+    @apply shadow-lg rounded-lg hover:scale-105;
+}
+
+.imgtext{
+    @apply p-4 text-base font-medium hover:text-blue-600 cursor-pointer;
+}
+
+.cardfeat{
+    @apply items-center ps-20 rounded-lg;
+}
+
+.cardcarousal{
+    @apply bg-blue-50 px-10 pt-10 rounded-lg hover:bg-blue-600 w-full bg-no-repeat cursor-pointer;
+
+}
